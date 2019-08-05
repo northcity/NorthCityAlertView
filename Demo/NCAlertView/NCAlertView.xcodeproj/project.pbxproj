@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		59166C2A22F023FE0043AD1A /* NCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59166C2922F023FE0043AD1A /* NCAlertView.m */; };
+		59166C2D22F0323F0043AD1A /* NCSuperVipAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 59166C2C22F0323F0043AD1A /* NCSuperVipAlertView.m */; };
+		59166C3022F039D80043AD1A /* NcSuperVipCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59166C2F22F039D80043AD1A /* NcSuperVipCollectionViewCell.m */; };
 		599E9AF822EAB083000AC6CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AF722EAB083000AC6CC /* AppDelegate.m */; };
 		599E9AFB22EAB083000AC6CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9AFA22EAB083000AC6CC /* ViewController.m */; };
 		599E9AFE22EAB083000AC6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599E9AFC22EAB083000AC6CC /* Main.storyboard */; };
@@ -15,7 +18,6 @@
 		599E9B0622EAB085000AC6CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9B0522EAB085000AC6CC /* main.m */; };
 		599E9B1022EAB085000AC6CC /* NCAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9B0F22EAB085000AC6CC /* NCAlertViewTests.m */; };
 		599E9B1B22EAB085000AC6CC /* NCAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9B1A22EAB085000AC6CC /* NCAlertViewUITests.m */; };
-		599E9B2B22EAB0B7000AC6CC /* NCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 599E9B2A22EAB0B7000AC6CC /* NCAlertView.m */; };
 		599E9B3322EAD09C000AC6CC /* NCAlertViewBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 599E9B3222EAD09C000AC6CC /* NCAlertViewBundle.bundle */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		59166C2822F023FE0043AD1A /* NCAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCAlertView.h; sourceTree = "<group>"; };
+		59166C2922F023FE0043AD1A /* NCAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCAlertView.m; sourceTree = "<group>"; };
+		59166C2B22F0323F0043AD1A /* NCSuperVipAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCSuperVipAlertView.h; sourceTree = "<group>"; };
+		59166C2C22F0323F0043AD1A /* NCSuperVipAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCSuperVipAlertView.m; sourceTree = "<group>"; };
+		59166C2E22F039D80043AD1A /* NcSuperVipCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NcSuperVipCollectionViewCell.h; sourceTree = "<group>"; };
+		59166C2F22F039D80043AD1A /* NcSuperVipCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NcSuperVipCollectionViewCell.m; sourceTree = "<group>"; };
 		599E9AF322EAB083000AC6CC /* NCAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NCAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		599E9AF622EAB083000AC6CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		599E9AF722EAB083000AC6CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,8 +61,6 @@
 		599E9B1622EAB085000AC6CC /* NCAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		599E9B1A22EAB085000AC6CC /* NCAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAlertViewUITests.m; sourceTree = "<group>"; };
 		599E9B1C22EAB085000AC6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		599E9B2922EAB0B7000AC6CC /* NCAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NCAlertView.h; sourceTree = "<group>"; };
-		599E9B2A22EAB0B7000AC6CC /* NCAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCAlertView.m; sourceTree = "<group>"; };
 		599E9B3222EAD09C000AC6CC /* NCAlertViewBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NCAlertViewBundle.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +89,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59166C2722F023FE0043AD1A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				59166C2822F023FE0043AD1A /* NCAlertView.h */,
+				59166C2922F023FE0043AD1A /* NCAlertView.m */,
+				59166C2B22F0323F0043AD1A /* NCSuperVipAlertView.h */,
+				59166C2C22F0323F0043AD1A /* NCSuperVipAlertView.m */,
+				59166C2E22F039D80043AD1A /* NcSuperVipCollectionViewCell.h */,
+				59166C2F22F039D80043AD1A /* NcSuperVipCollectionViewCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		599E9AEA22EAB083000AC6CC = {
 			isa = PBXGroup;
 			children = (
@@ -141,9 +160,8 @@
 		599E9B2822EAB0A8000AC6CC /* NCAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				59166C2722F023FE0043AD1A /* Classes */,
 				599E9B3222EAD09C000AC6CC /* NCAlertViewBundle.bundle */,
-				599E9B2922EAB0B7000AC6CC /* NCAlertView.h */,
-				599E9B2A22EAB0B7000AC6CC /* NCAlertView.m */,
 			);
 			path = NCAlertView;
 			sourceTree = "<group>";
@@ -279,10 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599E9B2B22EAB0B7000AC6CC /* NCAlertView.m in Sources */,
+				59166C2A22F023FE0043AD1A /* NCAlertView.m in Sources */,
 				599E9AFB22EAB083000AC6CC /* ViewController.m in Sources */,
 				599E9B0622EAB085000AC6CC /* main.m in Sources */,
+				59166C2D22F0323F0043AD1A /* NCSuperVipAlertView.m in Sources */,
 				599E9AF822EAB083000AC6CC /* AppDelegate.m in Sources */,
+				59166C3022F039D80043AD1A /* NcSuperVipCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
